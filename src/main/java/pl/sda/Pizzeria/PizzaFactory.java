@@ -1,6 +1,14 @@
 package main.java.pl.sda.Pizzeria;
+import java.util.Arrays;
 
 public class PizzaFactory {
+    enum PizzaKind {
+        MARGHERITA,
+        PEPPERONI,
+        DIAVOLA,
+        CAPRICIOSSA;
+
+    }
     public Pizza createPizza(PizzaKind kind) {
         switch (kind) {
             case MARGHERITA:
@@ -20,13 +28,7 @@ public class PizzaFactory {
     }
 }
 
-        enum PizzaKind {
-            MARGHERITA,
-            PEPPERONI,
-            DIAVOLA,
-            CAPRICIOSSA
 
 
-        }
 
 
