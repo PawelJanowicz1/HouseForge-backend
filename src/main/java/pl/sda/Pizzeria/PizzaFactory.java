@@ -1,7 +1,7 @@
 package main.java.pl.sda.Pizzeria;
 import java.util.Arrays;
 
-public class PizzaFactory {
+final public class PizzaFactory {
     enum PizzaKind {
         MARGHERITA,
         PEPPERONI,

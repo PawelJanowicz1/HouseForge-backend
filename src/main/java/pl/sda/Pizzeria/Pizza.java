@@ -18,9 +18,9 @@ public class Pizza {
     }
 
     public void bake() {
-        System.out.println(String.format("When making a %s pizza, set aside %d minutes.", name, bakingTime));}
+        System.out.println(String.format("We are making your %s pizza, set aside %d minutes.", name, bakingTime));}
     public void box(){
-        System.out.println(String.format("Your %s pizza is being boxed up."));
+        System.out.println(String.format("Your %s pizza is being boxed up.", name));
     }
 
 }
