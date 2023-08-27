@@ -2,7 +2,7 @@ package main.java.pl.sda.Pizzeria;
 
 import java.util.List;
 
-public class Pizza {
+public abstract class Pizza {
     private String name;
     private int bakingTime;
     private List<String> ingredients;
