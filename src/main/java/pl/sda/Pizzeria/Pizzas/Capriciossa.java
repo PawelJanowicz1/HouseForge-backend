@@ -1,4 +1,6 @@
-package main.java.pl.sda.Pizzeria;
+package main.java.pl.sda.Pizzeria.Pizzas;
+
+import main.java.pl.sda.Pizzeria.Pizza;
 
 import java.util.Arrays;
 

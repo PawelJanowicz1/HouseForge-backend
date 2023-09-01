@@ -1,11 +1,14 @@
 package main.java.pl.sda.Pizzeria;
 
+import main.java.pl.sda.Pizzeria.Pizzas.*;
+
 public class PizzeriaRun {
     public static void main(String[] args) {
         Pizza margherita = new Margherita();
         Pizza capriciossa = new Capriciossa();
         Pizza diavola = new Diavola();
         Pizza pepperoni = new Pepperoni();
+        Pizza vesuvio = new Vesuvio();
 
 
         margherita.prepare();
@@ -30,5 +33,11 @@ public class PizzeriaRun {
         pepperoni.prepare();
         pepperoni.bake();
         pepperoni.box();
+
+        System.out.println();
+
+        vesuvio.prepare();
+        vesuvio.bake();
+        vesuvio.box();
     }
 }

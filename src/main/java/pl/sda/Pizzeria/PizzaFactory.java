@@ -1,5 +1,8 @@
 package main.java.pl.sda.Pizzeria;
-import java.util.Arrays;
+import main.java.pl.sda.Pizzeria.Pizzas.Capriciossa;
+import main.java.pl.sda.Pizzeria.Pizzas.Diavola;
+import main.java.pl.sda.Pizzeria.Pizzas.Margherita;
+import main.java.pl.sda.Pizzeria.Pizzas.Pepperoni;
 
 final public class PizzaFactory {
     enum PizzaKind {
