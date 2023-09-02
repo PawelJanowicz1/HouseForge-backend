@@ -9,6 +9,7 @@ public class PizzeriaRun {
         Pizza diavola = new Diavola();
         Pizza pepperoni = new Pepperoni();
         Pizza vesuvio = new Vesuvio();
+        Pizza bianca = new Bianca();
 
 
         margherita.prepare();
@@ -39,5 +40,11 @@ public class PizzeriaRun {
         vesuvio.prepare();
         vesuvio.bake();
         vesuvio.box();
+
+        System.out.println();
+
+        bianca.prepare();
+        bianca.bake();
+        bianca.box();
     }
 }
