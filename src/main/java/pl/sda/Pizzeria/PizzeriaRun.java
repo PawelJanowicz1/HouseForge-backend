@@ -1,5 +1,6 @@
 package main.java.pl.sda.Pizzeria;
 
+import main.java.pl.sda.Pizzeria.Pizza;
 import main.java.pl.sda.Pizzeria.Pizzas.*;
 
 public class PizzeriaRun {
@@ -10,6 +11,7 @@ public class PizzeriaRun {
         Pizza pepperoni = new Pepperoni();
         Pizza vesuvio = new Vesuvio();
         Pizza bianca = new Bianca();
+        Pizza hawaii = new Hawaii();
 
 
         margherita.prepare();
@@ -46,5 +48,11 @@ public class PizzeriaRun {
         bianca.prepare();
         bianca.bake();
         bianca.box();
+
+        System.out.println();
+
+        hawaii.prepare();
+        hawaii.bake();
+        hawaii.box();
     }
 }
