@@ -12,6 +12,7 @@ public class PizzeriaRun {
         Pizza vesuvio = new Vesuvio();
         Pizza bianca = new Bianca();
         Pizza hawaii = new Hawaii();
+        Pizza marina = new Marina();
 
 
         margherita.prepare();
@@ -54,5 +55,12 @@ public class PizzeriaRun {
         hawaii.prepare();
         hawaii.bake();
         hawaii.box();
+
+        System.out.println();
+
+
+        marina.prepare();
+        marina.bake();
+        marina.box();
     }
 }
