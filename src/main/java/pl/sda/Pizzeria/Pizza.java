@@ -22,5 +22,4 @@ public abstract class Pizza {
     public void box(){
         System.out.println(String.format("Your %s pizza is being boxed up.", name));
     }
-
 }
