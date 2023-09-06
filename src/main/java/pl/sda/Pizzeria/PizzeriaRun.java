@@ -14,6 +14,7 @@ public class PizzeriaRun {
         Pizza hawaii = new Hawaii();
         Pizza marina = new Marina();
         Pizza carbonara = new Carbonara();
+        Pizza mexicana = new Mexicana();
 
 
         margherita.prepare();
@@ -68,6 +69,13 @@ public class PizzeriaRun {
         carbonara.prepare();
         carbonara.bake();
         carbonara.box();
+
+        System.out.println();
+
+        mexicana.prepare();
+        mexicana.bake();
+        mexicana.box();
+
     }
 }
 
