@@ -16,6 +16,7 @@ public class PizzeriaRun {
         Pizza carbonara = new Carbonara();
         Pizza mexicana = new Mexicana();
         Pizza pazza = new Pazza();
+        Pizza bambina = new Bambina();
 
 
         margherita.prepare();
@@ -82,6 +83,12 @@ public class PizzeriaRun {
         pazza.prepare();
         pazza.bake();
         pazza.box();
+
+        System.out.println();
+
+        bambina.prepare();
+        bambina.bake();
+        bambina.box();
     }
 }
 
