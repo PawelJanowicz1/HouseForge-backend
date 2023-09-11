@@ -104,6 +104,12 @@ public class PizzeriaRun {
         pollo.prepare();
         pollo.bake();
         pollo.box();
+
+        System.out.println();
+
+        firenze.prepare();
+        firenze.bake();
+        firenze.box();
     }
 }
 
