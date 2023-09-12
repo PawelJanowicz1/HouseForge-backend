@@ -20,6 +20,7 @@ public class PizzeriaRun {
         Pizza gyros = new Gyros();
         Pizza pollo = new Pollo();
         Pizza firenze = new Firenze();
+        Pizza pioggia = new Pioggia();
 
 
         margherita.prepare();
@@ -110,6 +111,12 @@ public class PizzeriaRun {
         firenze.prepare();
         firenze.bake();
         firenze.box();
+
+        System.out.println();
+
+        pioggia.prepare();
+        pioggia.bake();
+        pioggia.box();
     }
 }
 
