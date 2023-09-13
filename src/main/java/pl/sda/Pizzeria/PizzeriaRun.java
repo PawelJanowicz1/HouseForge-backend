@@ -120,6 +120,10 @@ public class PizzeriaRun {
         pioggia.box();
 
         System.out.println();
+
+        cavistoli.prepare();
+        cavistoli.bake();
+        cavistoli.box();
     }
 }
 
