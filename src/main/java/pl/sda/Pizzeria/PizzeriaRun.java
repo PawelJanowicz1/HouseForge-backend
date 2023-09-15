@@ -22,6 +22,7 @@ public class PizzeriaRun {
         Pizza firenze = new Firenze();
         Pizza pioggia = new Pioggia();
         Pizza cavistoli = new Cavistoli();
+        Pizza feliciana = new Feliciana();
 
 
         margherita.prepare();
@@ -124,6 +125,12 @@ public class PizzeriaRun {
         cavistoli.prepare();
         cavistoli.bake();
         cavistoli.box();
+
+        System.out.println();
+
+        feliciana.prepare();
+        feliciana.bake();
+        feliciana.box();
     }
 }
 
