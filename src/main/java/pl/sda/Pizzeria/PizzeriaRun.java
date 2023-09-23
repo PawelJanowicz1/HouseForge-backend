@@ -139,6 +139,8 @@ public class PizzeriaRun {
         devio.prepare();
         devio.bake();
         devio.box();
+
+        System.out.println();
     }
 }
 
