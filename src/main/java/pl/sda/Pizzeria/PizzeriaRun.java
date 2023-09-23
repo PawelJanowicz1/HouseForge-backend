@@ -141,6 +141,10 @@ public class PizzeriaRun {
         devio.box();
 
         System.out.println();
+
+        toscana.prepare();
+        toscana.bake();
+        toscana.box();
     }
 }
 
