@@ -24,6 +24,7 @@ public class PizzeriaRun {
         Pizza cavistoli = new Cavistoli();
         Pizza feliciana = new Feliciana();
         Pizza devio = new Devio();
+        Pizza toscana = new Toscana();
 
 
         margherita.prepare();
