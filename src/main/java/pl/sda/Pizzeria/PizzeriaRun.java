@@ -25,6 +25,7 @@ public class PizzeriaRun {
         Pizza feliciana = new Feliciana();
         Pizza devio = new Devio();
         Pizza toscana = new Toscana();
+        Pizza romana = new Romana();
 
 
         margherita.prepare();
@@ -145,6 +146,12 @@ public class PizzeriaRun {
         toscana.prepare();
         toscana.bake();
         toscana.box();
+
+        System.out.println();
+
+        romana.prepare();
+        romana.bake();
+        romana.box();
     }
 }
 
