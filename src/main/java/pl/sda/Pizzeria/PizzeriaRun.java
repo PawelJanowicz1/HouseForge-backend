@@ -26,6 +26,7 @@ public class PizzeriaRun {
         Pizza devio = new Devio();
         Pizza toscana = new Toscana();
         Pizza romana = new Romana();
+        Pizza boscaiola = new Boscaiola();
 
 
         margherita.prepare();
@@ -152,5 +153,11 @@ public class PizzeriaRun {
         romana.prepare();
         romana.bake();
         romana.box();
+
+        System.out.println();
+
+        boscaiola.prepare();
+        boscaiola.bake();
+        boscaiola.box();
     }
 }
