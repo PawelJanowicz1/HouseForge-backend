@@ -2,6 +2,7 @@ package main.java.pl.sda.Pizzeria;
 
 import main.java.pl.sda.Pizzeria.Pizza;
 import main.java.pl.sda.Pizzeria.Pizzas.*;
+import main.java.pl.sda.Pizzeria.Pizzas.Margherita;
 
 public class PizzeriaRun {
     public static void main(String[] args) {

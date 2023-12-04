@@ -16,7 +16,6 @@ public abstract class Pizza {
         System.out.println(String.format("In the process of making %s pizza, the following ingredients will be utilized: %s.",
                 name, ingredients.toString()));
     }
-
     public void bake() {
         System.out.println(String.format("We are making your %s pizza, set aside %d minutes.", name, bakingTime));}
     public void box(){
