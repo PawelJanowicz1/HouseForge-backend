@@ -9,4 +9,3 @@ public class Boscaiola extends Pizza {
     public Boscaiola() {
         super("Boscaiola", 13, Arrays.asList("Tomato sauce, Cheese, Mushroom"));
     }
-}
