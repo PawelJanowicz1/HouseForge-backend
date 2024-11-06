@@ -1,13 +1,13 @@
-package org.example.sellingHouses;
+package org.example.house_forge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SellingHousesApplication {
+public class HouseForgeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SellingHousesApplication.class, args);
+        SpringApplication.run(HouseForgeApplication.class, args);
     }
 
 }

@@ -1,10 +1,10 @@
-package org.example.sellingHouses;
+package org.example.house_forge;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SellingHousesApplicationTests {
+class HouseForgeApplicationTests {
 
     @Test
     void contextLoads() {

@@ -31,3 +31,7 @@ bin/
 ### Ignoring sensitive details ###
 src/main/resources/application.properties
 docker-compose.yml
+/.idea/dataSources/3e9287fd-9370-425b-b5b8-5b0e5e997994.xml
+/.idea/dataSources.local.xml
+/.idea/dataSources.xml
+/.idea/dataSources/3e9287fd-9370-425b-b5b8-5b0e5e997994/storage_v2/_src_/schema/mysql.osA4Bg.meta

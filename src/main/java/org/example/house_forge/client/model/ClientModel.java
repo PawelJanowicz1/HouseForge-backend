@@ -1,4 +1,4 @@
-package org.example.sellingHouses.client.model;
+package org.example.house_forge.client.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;

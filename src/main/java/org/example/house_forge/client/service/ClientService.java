@@ -1,7 +1,7 @@
-package org.example.sellingHouses.client.service;
+package org.example.house_forge.client.service;
 
 import lombok.AllArgsConstructor;
-import org.example.sellingHouses.client.repository.ClientRepository;
+import org.example.house_forge.client.repository.ClientRepository;
 import org.springframework.stereotype.Service;
 
 @Service

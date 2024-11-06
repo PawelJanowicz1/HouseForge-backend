@@ -1,6 +1,6 @@
-package org.example.sellingHouses.client.repository;
+package org.example.house_forge.client.repository;
 
-import org.example.sellingHouses.client.model.ClientModel;
+import org.example.house_forge.client.model.ClientModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
