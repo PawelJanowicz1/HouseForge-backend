@@ -18,7 +18,7 @@ public class ClientModel {
     @NotBlank(message = "name cannot be blank")
     private String name;
 
-    @Pattern(regexp = "^(\\+48)?[\\s-]?\\d{3}[\\s-]?\\d{3}[\\s-]?\\d{3}$", message = "Invalid phone number format")
+    @Pattern(regexp = "^(?:\\+48\\s?\\d{3}\\s?\\d{3}\\s?\\d{3}|\\+48\\d{9}|\\d{9}|\\d{3}\\s?\\d{3}\\s?\\d{3})$", message = "Invalid phone number format")
     private String phoneNumber;
 
     @NotBlank(message = "email cannot be blank")
