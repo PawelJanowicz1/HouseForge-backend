@@ -1,5 +1,6 @@
 org/example/house_forge/HouseForgeApplication.class
 org/example/house_forge/client/repository/ClientRepository.class
+org/example/house_forge/config/WebConfig.class
 org/example/house_forge/client/controller/ClientController.class
 org/example/house_forge/client/model/ClientModel.class
 org/example/house_forge/client/service/ClientService.class
