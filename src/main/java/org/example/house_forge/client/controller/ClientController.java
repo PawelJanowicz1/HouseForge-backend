@@ -12,7 +12,7 @@ public class ClientController {
 
     private final ClientService clientService;
 
-    @CrossOrigin({"https://www.budowa-domow-trojmiasto.pl", "https://www.budowa-domow-trojmiasto.pl/api"})
+    @CrossOrigin({"http://localhost:4200", "https://www.budowa-domow-trojmiasto.pl", "https://budowa-domow-trojmiasto.pl"})
     @PostMapping("/send-message")
     ResponseEntity<String> sendMessage(@RequestBody ClientModel clientModel){
        return clientService.sendMessage(clientModel);
