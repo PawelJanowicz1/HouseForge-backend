@@ -17,4 +17,4 @@ This repository contains the **backend section** of the project, responsible for
 
 Backend Overview
 :-------------------------:
-![Backend Overview](resources/static/images/backend.png)
+![Backend Overview](src/main/resources/static/images/backend.png)
