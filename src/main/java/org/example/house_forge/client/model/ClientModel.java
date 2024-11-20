@@ -34,6 +34,8 @@ public class ClientModel {
 
     @NotBlank(message = "Message cannot be blank")
     @Size(max = 500, message = "Message cannot exceed 500 characters")
-    @Pattern(regexp = "^[\\w\\s.,;:'\"-]+$", message = "Message contains invalid characters")
-    private String message;
+    @Pattern(
+            regexp = "^[\\w\\s.,;:'\"-ąćęłńóśźżĄĆĘŁŃÓŚŹŻ]+$",
+            message = "Message contains invalid characters"
+    )    private String message;
 }
