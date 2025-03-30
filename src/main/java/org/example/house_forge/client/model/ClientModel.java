@@ -14,7 +14,6 @@ import lombok.Setter;
 @Table(name = "clients_house_forge")
 @Getter
 @Setter
-@EqualsAndHashCode
 public class ClientModel {
 
     @Id
