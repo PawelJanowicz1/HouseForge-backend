@@ -6,10 +6,15 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
 @Table(name = "clients_house_forge")
-@Data
+@Getter
+@Setter
+@EqualsAndHashCode
 public class ClientModel {
 
     @Id
